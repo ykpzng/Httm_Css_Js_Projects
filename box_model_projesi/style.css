@@ -1,0 +1,143 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation */
+
+nav {
+  text-align: center;
+}
+
+nav img {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+nav span {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  margin: 10px 0;
+}
+
+nav a {
+  color: black;
+}
+nav a:hover {
+  color: rgb(22, 156, 22);
+}
+
+/* Content Container */
+
+.content {
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+  /* overflow: scroll; */
+}
+
+/* Content Header */
+
+.header {
+  background-image: url("./main_pizza.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  margin: 0 auto;
+}
+
+.header h1 {
+  background-color: #152e0e;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  width: 68%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* Content Body */
+
+.content .body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.body p {
+  color: black;
+  line-height: 32px;
+  width: 90%;
+  margin-top: 18px;
+}
+
+/* Content Button */
+
+.button {
+  border-radius: 4px;
+  color: #152e0e;
+  display: block;
+  font-weight: 700;
+  width: 200px;
+  padding: 20px;
+  margin: 40px auto;
+  border: 1px solid green;
+}
+
+.button:hover {
+  color: rgb(22, 156, 22);
+}
+
+/* Content Nutrition */
+
+ul.nutrition {
+  padding: 20px;
+}
+
+ul.nutrition li {
+  display: inline-block;
+  list-style: none;
+  width: 200px;
+  background-color: #152e0e;
+  padding: 10px 20px;
+  margin-bottom: 3px;
+}
+
+.nutrition .category {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  display: block;
+}
+
+.nutrition .value {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+footer {
+  background-color: #1b3f11;
+  width: auto;
+  height: 45px;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  font-size: 12px;
+}

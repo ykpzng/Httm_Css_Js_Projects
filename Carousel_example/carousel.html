@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <style>
+    .carosel-image {
+      height: 550px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .card-one {
+      background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg');
+    }
+
+    .card-two {
+      background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg');
+    }
+
+    .card-three {
+      background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg')
+    }
+  </style>
+
+  <title>Carousel Page Example</title>
+</head>
+
+<body>
+  <!-- Start Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Carousel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- End Nav Bar -->
+
+  <!-- Start Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class=" carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active carosel-image card-one">
+        <!-- <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" class=" d-block w-100"
+          style="min-height: 400px;" alt="..."> -->
+        <div class="container">
+          <div class="carousel-caption text-center">
+            <h1 display-4>Example headline</h1>
+            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+              gravida at eget
+              metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p>
+              <a href="#" class="btn btn-lg btn-primary" role="button">Sign up today</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carosel-image card-two">
+        <!-- <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" class="d-block w-100"
+          style="min-height: 400px;" alt="..."> -->
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1 display-4>Example headline</h1>
+            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+              gravida at eget
+              metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p>
+              <a href="#" class="btn btn-lg btn-primary" role="button">Sign up today</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carosel-image card-three">
+        <!-- <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" class="d-block w-100"
+          style="min-height: 400px;" alt="..."> -->
+        <div class="container">
+          <div class="carousel-caption text-right">
+            <h1 display-4>Example headline</h1>
+            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+              gravida at eget
+              metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p>
+              <a href="#" class="btn btn-lg btn-primary" role="button">Sign up today</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- End Carousel -->
+
+  <!-- start circle cards -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-sm-12 col-md-4">
+        <div class="card border-0 mx-auto w-100">
+          <img src="./images/brad.jpg" width="140" height="140" class="bd-placeolder-img rounded-circle mx-auto"
+            alt="...">
+          <div class="card-body text-center">
+            <h3 class="card-title">Card title</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">View details >></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <div class="card border-0 mx-auto w-100">
+          <img src="./images/david.jpg" width="140" height="140" class="bd-placeolder-img rounded-circle mx-auto"
+            alt="...">
+          <div class="card-body text-center">
+            <h3 class="card-title">Card title</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">View details >></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <div class="card border-0 mx-auto w-100">
+          <img src="./images/holly.png" width="140" height="140" class="bd-placeolder-img rounded-circle mx-auto"
+            alt="...">
+          <div class="card-body text-center">
+            <h3 class="card-title">Card title</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">View details >></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- start circle cards -->
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

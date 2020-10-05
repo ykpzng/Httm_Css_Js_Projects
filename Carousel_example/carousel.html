@@ -18,16 +18,32 @@
       background-size: cover;
     }
 
-    .card-one {
+    .slayd-one {
       background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg');
+
     }
 
-    .card-two {
+    .slayd-two {
       background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg');
     }
 
-    .card-three {
+    .slayd-three {
       background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg')
+    }
+
+    .promation-img {
+      height: 500px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-image: url(https://picsum.photos/500/500);
+    }
+
+    @media screen and (max-width: 580px) {
+      .promation-row {
+        text-align: center;
+      }
+
     }
   </style>
 
@@ -73,7 +89,7 @@
       <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-      <div class="carousel-item active carosel-image card-one">
+      <div class="carousel-item active carosel-image slayd-one">
         <!-- <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" class=" d-block w-100"
           style="min-height: 400px;" alt="..."> -->
         <div class="container">
@@ -88,7 +104,7 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item carosel-image card-two">
+      <div class="carousel-item carosel-image slayd-two">
         <!-- <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" class="d-block w-100"
           style="min-height: 400px;" alt="..."> -->
         <div class="container">
@@ -103,7 +119,7 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item carosel-image card-three">
+      <div class="carousel-item carosel-image slayd-three">
         <!-- <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" class="d-block w-100"
           style="min-height: 400px;" alt="..."> -->
         <div class="container">
@@ -171,9 +187,72 @@
       </div>
     </div>
   </div>
+  <!-- End circle cards -->
 
-  <!-- start circle cards -->
+  <hr class="container my-5">
 
+  <!-- Start Promation Area -1- -->
+  <div class="container">
+    <div class="row promation-row">
+      <div class="col-md-7 my-5">
+        <h1 class="display-4">Lorem ipsum dolor sit amet consectetur</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique corporis quam, doloribus
+          quos esse iure
+          excepturi tempora quasi vel ducimus officiis saepe magni incidunt neque! Quos vitae voluptate eius ratione!
+        </p>
+      </div>
+      <div class="col-md-5 promation-img">
+        <!-- <img src="https://picsum.photos/500/500" width="100%" alt=""> -->
+      </div>
+    </div>
+  </div>
+  <!-- End Promation Area -1- -->
+
+  <hr class="container my-5">
+
+  <!-- Start Promation Area -2- -->
+  <div class="container">
+    <div class="row promation-row">
+      <div class="col-md-5 promation-img">
+      </div>
+      <div class="col-md-7 my-5">
+        <h1 class="display-4">Lorem ipsum dolor sit amet consectetur</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique corporis quam, doloribus
+          quos esse iure
+          excepturi tempora quasi vel ducimus officiis saepe magni incidunt neque! Quos vitae voluptate eius ratione!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Promation Area -2- -->
+
+  <hr class="container my-5">
+
+  <!-- Start Promation Area -3- -->
+  <div class="container">
+    <div class="row promation-row">
+      <div class="col-md-7 my-5">
+        <h1 class="display-4">Lorem ipsum dolor sit amet consectetur</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique corporis quam, doloribus
+          quos esse iure
+          excepturi tempora quasi vel ducimus officiis saepe magni incidunt neque! Quos vitae voluptate eius ratione!
+        </p>
+      </div>
+      <div class="col-md-5 promation-img">
+        <!-- <img src="https://picsum.photos/500/500" alt=""> -->
+      </div>
+    </div>
+  </div>
+  <!-- End Promation Area -3- -->
+
+  <hr class="container my-5">
+
+
+  <footer class="container my-5">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy;2019-2020 Company, Inc.</p>
+  </footer>
 
 
 
